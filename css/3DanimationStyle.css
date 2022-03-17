@@ -3,7 +3,8 @@
  }
  
  body {
-   font-family: Akkurat, Helvetica, Arial, sans-serif;
+   /*font-family: Akkurat, Helvetica, Arial, sans-serif;*/
+   font-family:Georgia, Times, serif;
  }
  
  /* Style the header */
@@ -35,8 +36,8 @@
  /* Style the left column */
  .left {
    grid-area: left;
-   width: 200px;
- }
+   width: 100px;
+}
  
  /* Style the middle column */
  .middle {
@@ -64,7 +65,7 @@
 /* Style the right column */
  .right {
    grid-area: right;
-   width: 200px;
+   width: 100px;
 }
  
  /* Style the footer */
@@ -78,7 +79,7 @@
  }
  
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- @media (max-width: 600px) {
+ @media (max-width: 800px) {
    .header {
      font-size: 12px;
       }
@@ -123,118 +124,3 @@
     border-radius: 5px;
 }
 
-/* h2{
-   font-family:Georgia, Times, serif;
-   font-style:italic;
-}
-
-strong{
-   color: #782F2B;
-}
-
-
-
-#playground{
-   display:flex;
-	flex-wrap: wrap;
-   padding: 0px;
-}
-
-#manualPlayer{
-   width: 40%;	
-   margin: 2%;
-   text-align: center;
-}
-#machinePlayer{
-   width: 40%;	
-   margin: 2%;
-   text-align: center;
-}
-
-#machinePlayer select{
-   visibility: hidden;
-}
-
-.player img{
-   height: 100px;
-
-}
-.introInfo{
-   padding: 10px;
-}
-.introInfo .label{
-   font-style: italic;
-   vertical-align: top;
-}
-
-.introInfo button{
-   margin-right: 20px;
-   padding: 3px;
-}
-
-.matchSummary{
-    float:none;
-	font-weight:bold;
-	list-style: none;
-
-}
-.marker li{
-	display: inline; 
-}
-	
-.marker{
-	width:100%;
-	text-align: center;
-}
-
-.teamMarker{
-    float:left;
-	width:150px;
-	text-align: center;
-}
-
-.teamMarker p{
-	font-size:200%;
-	font-weight:bold;
-}
-
-.tableSummary{
-	margin-top:250px;
-}
-
-p{
-   font-family:Verdana,Arial, serif;
-}
-
-table {
-   font-size: 80%;
-   width: 580px;
-   text-align:center;
-   border-spacing: 0px;
-   border-collapse: collapse;
-   }
-
-th, td {
-   padding: 7px 10px 10px 10px;
-   border: 1px solid #782F2B;
-   }
-
-th {
-   text-transform: uppercase;
-   letter-spacing: 0.1em;
-   font-size: 90%;
-   background-color: #FF7B5C;
-   color:#782F2B;
-   text-align: center;
-}
-
-.tableSummary th:nth-child(1) {
-  width: 50px;
-  }
-
-.tableSummary th:nth-child(2) {
-  width: 500px;
-}
-
-tr:hover {
-   background-color: #E5C8FF;} */
